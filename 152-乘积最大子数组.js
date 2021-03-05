@@ -2,6 +2,7 @@
  * @param {number[]} nums
  * @return {number}
  */
+//动态规划
 var maxProduct = function (nums) {
   let res = nums[0];
   let prevMin = nums[0];
