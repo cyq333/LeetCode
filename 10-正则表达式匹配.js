@@ -3,6 +3,7 @@
  * @param {string} p
  * @return {boolean}
  */
+//动态规划
 var isMatch = function (s, p) {
   let dp = Array(s.length + 1);
   for (let i = 0; i < dp.length; i++) {
